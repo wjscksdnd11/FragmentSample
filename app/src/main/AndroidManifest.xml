@@ -15,9 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".FragmentInActivity"
-            android:exported="true" />
         <activity android:name=".OtherActivity" />
         <activity
             android:name=".OtherFragmentActivity"

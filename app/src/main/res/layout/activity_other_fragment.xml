@@ -12,7 +12,7 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="com.example.tacademy.fragmentsample.OneFragment"
+        android:name="com.example.tacademy.fragmentsample.Onefragment"
         android:id="@+id/fragment"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
