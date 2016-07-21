@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.tacademy.fragmentsample.MainActivity">
+    tools:context="com.begentgroup.sampleapplicationcomponent.MainActivity">
 
     <EditText
         android:layout_width="wrap_content"
@@ -36,6 +36,26 @@
         android:text="Medium Text"
         android:id="@+id/text_result"
         android:layout_below="@+id/btn_other"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start service"
+        android:id="@+id/btn_start"
+        android:layout_below="@+id/text_result"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop service"
+        android:id="@+id/btn_stop"
+        android:layout_below="@+id/btn_start"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
